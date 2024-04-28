@@ -205,8 +205,8 @@ h2{
     font-style: italic;
 }
 
-/*interest*/
-.interest{
+/*interest, recommend*/
+.interest,.recommend{
     display: flex;
     flex-direction: column;
     margin: 0 auto;
@@ -214,7 +214,7 @@ h2{
     padding-bottom: 70px;
 }
 
-.interest>h1{
+.interest>h1,.recommend>h1{
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     color: yellow;
