@@ -55,3 +55,29 @@ ul{
     color: aquamarine;
     transition: 0.3s;
 }
+
+
+/*footer*/
+.footer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.copyright>p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+    margin: 0;
+}
+
+.copyright>span{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-size: 13px;
+    margin: 0;
+    margin-top: 20px;
+    display: block;
+}
