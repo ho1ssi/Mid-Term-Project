@@ -16,3 +16,42 @@ body{
     background-color: black;
     transition: 0.3s;
 }
+
+/*navigator*/
+.navigator{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 100px;
+    align-items: center;
+}
+
+li{
+    display: inline;
+    align-self: center;
+    margin: 0;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+.site-name{
+    margin:0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    color: yellow;
+}
+
+.nav-menu{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-menu:hover{
+    color: aquamarine;
+    transition: 0.3s;
+}
