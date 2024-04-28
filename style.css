@@ -147,6 +147,12 @@ h3{
     font-size: 40px;
 }
 
+.introduction>p{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
 /*footer*/
 .footer{
     display: flex;
