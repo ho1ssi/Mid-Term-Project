@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.87);
+    color: white;
+}
+
+.fixed-header{
+    position: fixed;
+    margin: 0;
+    width: 100%;
+    padding: 30px 0px;
+    z-index: 1000;
+}
+
+.fixed-header:hover{
+    background-color: black;
+    transition: 0.3s;
+}
