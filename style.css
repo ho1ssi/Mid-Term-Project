@@ -100,6 +100,22 @@ ul{
     background-color: orange;
 }
 
+.tag{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    display: inline-block;
+    color:aquamarine;
+    padding-top: 20px;
+    font-style: italic;
+}
+
+.word{
+    border: 1.5px solid aquamarine;
+    border-radius: 50px;
+    padding: 8px 15px;
+}
+
 /*footer*/
 .footer{
     display: flex;
