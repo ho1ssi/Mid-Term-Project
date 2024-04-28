@@ -56,6 +56,31 @@ ul{
     transition: 0.3s;
 }
 
+/*dashboard*/
+.dashboard{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 70px 0px;
+}
+
+.korean-comment{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+    margin: 0;
+    padding-top: 80px;
+}
+
+.sample,.highlight{
+    color: black;
+    -webkit-text-stroke: 1px yellow;
+}
+
+.sample:hover{
+    color: yellow;
+}
 
 /*footer*/
 .footer{
