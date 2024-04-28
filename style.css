@@ -153,6 +153,58 @@ h3{
     font-size: 16px;
 }
 
+.profile-extra{
+    padding-left: 100px;
+}
+
+h2{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: aquamarine;
+}
+
+.profile-extra>p{
+    margin: 0;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 17px
+}
+
+/*life-mottos*/
+.life-mottos{
+    display: flex;
+    flex-direction: column;
+    /*align-items: center;*/
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 70px 0px;
+}
+
+.life-mottos>h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: yellow;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+.mottos{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.type4{
+    color: aquamarine;
+}
+
+.eng-quotes{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-style: italic;
+}
+
 /*footer*/
 .footer{
     display: flex;
