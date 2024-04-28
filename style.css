@@ -205,6 +205,50 @@ h2{
     font-style: italic;
 }
 
+/*interest*/
+.interest{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 1000px;
+    padding-bottom: 70px;
+}
+
+.interest>h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: yellow;
+    margin: 0;
+    padding-bottom: 70px;
+}
+
+.interest-icon,.video-source{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    justify-content: space-between;
+}
+
+.video-icon,.music-icon,.leisure-icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+
+.youtube,.music,.travle{
+    width: 35%;
+    padding-bottom: 15px;
+}
+
+.video-info,.music-info,.leisure-info{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    margin: 0;
+    padding: 15px 0px;
+    text-align: center;
+}
+
 /*footer*/
 .footer{
     display: flex;
