@@ -82,6 +82,24 @@ ul{
     color: yellow;
 }
 
+.highlight:hover{
+    color: black;
+    -webkit-text-stroke: initial;
+    font-weight: 700;
+}
+
+.type1:hover{
+    background-color: yellowgreen;
+}
+
+.type2:hover{
+    background-color: skyblue;
+}
+
+.type3:hover{
+    background-color: orange;
+}
+
 /*footer*/
 .footer{
     display: flex;
